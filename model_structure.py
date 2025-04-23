@@ -3,6 +3,7 @@ from pathlib import Path
 import numpy as np
 import torch
 import torch.nn as nn
+from torch.utils.data import Dataset
 
 # ─── Utility functions to split & reassemble into patches ───────────────────────
 def extract_patches(x: torch.Tensor, patch_size: int = 16):
