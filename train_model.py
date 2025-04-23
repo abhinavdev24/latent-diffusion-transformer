@@ -11,8 +11,7 @@ import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 
 from apex.optimizers import FusedAdam
-from model_structure import DiT, LatentDataset
-from train import cosine_alphas_bar
+from model_structure import DiT, LatentDataset, cosine_alphas_bar
 import wandb
 
 # ─── Configuration ─────────────────────────────────────────────────────────────
