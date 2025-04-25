@@ -84,6 +84,13 @@ The dataset used for this project is the CelebA dataset. You can download it fro
 
 After downloading, place the dataset in the `dataset/` directory.
 
+## Environment
+
+This project was developed using the following environment:
+
+- **Python**: 3.11
+- **PyTorch**: 2.4
+
 ## Usage
 
 ### 1. Preprocess Dataset
@@ -124,7 +131,7 @@ pip install -r requirements.txt
 
 ## Reference
 
-- "Scalable Diffusion Models with Transformers" ([arXiv:2212.09748](https://arxiv.org/pdf/2212.09748))
+- "Scalable Diffusion Models with Transformers" ([arXiv:2212.09748](https://www.arxiv.org/pdf/2212.09748))
 - CelebA Dataset ([Kaggle](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset))
 
 ## Acknowledgments
