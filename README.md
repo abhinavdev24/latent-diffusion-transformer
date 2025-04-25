@@ -95,7 +95,7 @@ This project was developed using the following environment:
 
 ### 1. Preprocess Dataset
 
-Run the `generate_dataset.py` script to preprocess images into latent representations:
+Run the `generate_dataset.py` script to preprocess images into latent representations using VAE autoencoderKL:
 
 ```bash
 python generate_dataset.py
