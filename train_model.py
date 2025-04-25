@@ -17,9 +17,9 @@ import wandb
 # ─── Configuration ─────────────────────────────────────────────────────────────
 CONFIG = {
     "data_root": "./dataset/latent",
-    "checkpoint_path": "./dit_checkpoint.pt",
-    "csv_log_path": "./loss_history.csv",
-    "best_models": ["best1.pt", "best2.pt", "best3.pt"],
+    "checkpoint_path": "./models/dit_checkpoint.pt",
+    "csv_log_path": "./training_log.csv",
+    "best_models": ["./models/best_model1.pt", "./models/best_model2.pt", "./models/best_model3.pt"],
     "wandb_project": "Latent-DiT-Training",
     "batch_size": 200,
     "lr": 2e-5,
